@@ -1,6 +1,6 @@
 {
   "name": "react-html-parser",
-  "version": "2.0.2",
+  "version": "2.0.4",
   "description": "Parse HTML into React components",
   "main": "lib/index.js",
   "jsnext:main": "src/index.js",
@@ -41,7 +41,6 @@
   "author": "Peter Newnham",
   "license": "MIT",
   "devDependencies": {
-    "babel": "^6.5.2",
     "babel-cli": "^6.8.0",
     "babel-core": "^6.8.0",
     "babel-loader": "^6.2.4",
@@ -65,8 +64,8 @@
     "karma-spec-reporter": "^0.0.26",
     "karma-webpack": "^1.7.0",
     "phantomjs-prebuilt": "^2.1.7",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "rimraf": "^2.5.2",
     "webpack": "^1.13.0"
   },
@@ -74,6 +73,6 @@
     "htmlparser2": "^3.9.0"
   },
   "peerDependencies": {
-    "react": "^0.14.0 || ^15.0.0 || ^16.0.0-0"
+    "react": "^0.14.0 || ^15.0.0 || ^16.0.0-0 || ^18.0.0-0"
   }
 }
